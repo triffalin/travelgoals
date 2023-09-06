@@ -9,8 +9,11 @@ ul {
 	padding: 0;
 }
 
-a {
-	text-decoration: none;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 60px;
 }
 
 #page-logo a {
@@ -21,4 +24,16 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul {
+	display: flex;
+}
+
+header li {
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
 }
