@@ -8,7 +8,7 @@ header {
 }
 
 main ul {
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -22,6 +22,7 @@ main li {
 	-ms-border-radius: 6px;
 	-o-border-radius: 6px;
 	overflow: hidden;
+	width: 500px;
 }
 
 main li img {
